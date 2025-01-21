@@ -11,7 +11,7 @@ void main(){
    @override
    Widget build(BuildContext context) {
      return MaterialApp(
-       home: listPage(),
+       home: ListPage(),
      );
    }
    

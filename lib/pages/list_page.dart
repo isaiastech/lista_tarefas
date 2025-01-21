@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 
-class listPage extends StatelessWidget {
-  const listPage({super.key});
+class ListPage extends StatelessWidget {
+  ListPage({super.key});
+
+  final TextEditingController emailController = TextEditingController();
 
   @override
   Widget build(BuildContext context) {
@@ -9,12 +11,28 @@ class listPage extends StatelessWidget {
       body: Center(
         child: Padding(
           padding: const EdgeInsets.all(18),
-          child: TextField(
-
+          child: Column(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              TextField(
+                controller: emailController,
+                decoration: InputDecoration(
+                  labelText: 'E-mail',
+                ),
+              ),
+              ElevatedButton(
+                  onPressed: login,
+                  child: Text('Entrar')),
+            ],
           ),
-
         ),
-      ) ,
+      ),
     );
   }
+
+  void login() {
+    String text = emailController.text;
+    print(text);
+  }
 }
+
