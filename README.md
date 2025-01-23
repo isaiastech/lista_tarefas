@@ -1,22 +1,16 @@
 # lista_tarefas
 
-App para criar lista de tarefas.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## App para criar lista de tarefas.
 
 
 ## Atalhos Android Studio
 
 * Colocar em widget  alt+enter   // em rapper
-* Para duplicar linhas no Android Studio, pode usar a tecla de atalho Ctrl + D. 
+* Duplica uma linha inteira	CTRL + D (Win), CMD + D (Mac).
+* Busca de comandos	CTRL + SHIFT + A
+* Mostra a documentação	CTRL + Q (Win), F1 (Mac)
+* Mostra os parâmetros de um método	CTRL + P
+* Mostra a documentação	CTRL + Q (Win), F1 (Mac)
+* Aplicar ajustes sugeridos pela ferramenta	ALT + ENTER
+* Busca de palavras dentro dos códigos	CTRL + ALT + SHIFT + N (Win), OPTION + CMD + O (Mac)
+* Formatação de código	CTRL + ALT + L (Win), OPTION + CMD + L (Mac)
