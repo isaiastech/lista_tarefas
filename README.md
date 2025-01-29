@@ -14,3 +14,11 @@
 * Aplicar ajustes sugeridos pela ferramenta	ALT + ENTER
 * Busca de palavras dentro dos códigos	CTRL + ALT + SHIFT + N (Win), OPTION + CMD + O (Mac)
 * Formatação de código	CTRL + ALT + L (Win), OPTION + CMD + L (Mac)
+
+
+## Pub.dev
+
+[Pub.dev](https://pub.dev/)
+[Instalando flutter_slidable:](https://pub.dev/packages/flutter_slidable/install)
+
+

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:intl/intl.dart';
 
 
 class todoListItem extends StatelessWidget {
@@ -20,7 +21,8 @@ class todoListItem extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Text('24/01/2025',
+            Text(
+                DateFormat('dd/MM/yyyy - HH:mm').format(DateTime.now()),
                 style:
                 TextStyle(
                     fontSize: 12)
